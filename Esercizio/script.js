@@ -38,8 +38,8 @@ changeTitle("Stiamo ancora fallendo!")
 
 // 8
 
-const content = document.getElementById("content")
-content.style.backgroundColor = "yellow";
+const content = document.querySelector(".cards")
+content.style.backgroundColor = "yellow"
 
 
 // 9
@@ -56,7 +56,6 @@ changeAddress("Bari (IT)")
 // 10
 
 const links = document.querySelectorAll(".card-link > a") 
-console.log(links)
 
 for (i = 0; i < links.length; i++) {
     links[i].classList.add("link")
