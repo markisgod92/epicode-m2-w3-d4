@@ -71,7 +71,14 @@ footer {
     color: white;
 }
 
+
+
+
 .link {
     text-decoration: none;
     color: red;
+}
+
+.show {
+    display: none;
 }

@@ -61,3 +61,31 @@ console.log(links)
 for (i = 0; i < links.length; i++) {
     links[i].classList.add("link")
 }
+
+
+// 11
+
+const pictures = document.querySelectorAll(".card-img > img")
+
+function toggleImages(string) {
+    if (string === "off") {
+        for (i = 0; i < pictures.length; i++) {
+            pictures[i].classList.toggle("show")
+        }
+    }
+}
+
+/* toggleImages("off") */
+
+
+// 12
+
+const prices = document.querySelectorAll(".card-price > p")
+
+function priceColor(color) {
+    for (i = 0; i < prices.length; i++) {
+        prices[i].style.color = color
+    }
+}
+
+priceColor("green")
